@@ -1,0 +1,32 @@
+:root {
+    --main-color-Pale-Blue: hsl(225, 100%, 94%);
+    --main-color-Bright-Blue: hsl(245, 75%, 52%);
+
+    --neutral-color-Very-Pale-Blue: hsl(225, 100%, 98%);
+    --neutral-color-Very-Desaturated-Blue: hsl(224, 23%, 55%);
+    --neutral-color-Dark-Blue: hsl(223, 47%, 23%);
+    
+    --font-size: 16px;
+
+    --font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: rgb(153, 153, 206);
+}
+
+.card {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    place-content: center;
+    
+}
+
+img {
+    max-width: 60%;
+}
+
+.space-picture {
+    border-radius: 10px 10px 0px 0px;
+}

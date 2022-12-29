@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
 
 
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -21,9 +24,8 @@
 <body>
 
   <main class="card">
-    <img class="space-picture" src="images/illustration-hero.svg" alt="space-pic">
     <div class="container">
-      
+      <img class="space-picture" src="images/illustration-hero.svg" alt="space-pic">
       <h1 class="title">Order Summary</h1>
 
       <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any 
@@ -34,14 +36,14 @@
       </div>
       <div class="plan-info">
         <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
+        <p>$59.99/year</p> 
+        <a href="">Change</a>
       </div>
-      
 
-      Change
-
-      Proceed to Payment
-      Cancel Order
+      <div class="order-info">
+        <button>Proceed to Payment</button>
+        <button>Cancel Order</button>
+      </div>
 
     </div>
   
